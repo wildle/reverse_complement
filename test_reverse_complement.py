@@ -5,3 +5,7 @@ class Test_reverse_complement(TestCase):
     def test_reverse_complement(self):
         self.assertEqual(reverse_complement("CGAT"), "ATCG")
         self.assertEqual(reverse_complement("CGzAT"), "AT_CG")
+
+    def test_reverse_complement(self):
+        self.assertEqual(reverse_complement())
+        self.assertEqual(reverse_complement())
